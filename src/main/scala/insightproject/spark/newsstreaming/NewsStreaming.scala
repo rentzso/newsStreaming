@@ -34,7 +34,7 @@ object NewsStreaming {
       "value.deserializer" -> classOf[ByteArrayDeserializer],
       "group.id" -> "stream_2",
       "auto.offset.reset" -> "latest",
-      "enable.auto.commit" -> (false: java.lang.Boolean)
+      "enable.auto.commit" -> (true: java.lang.Boolean)
     )
     val sparkConf = new SparkConf().setAppName("news_streaming")
     sparkConf.set("es.nodes", "ip-10-0-0-4,ip-10-0-0-9,ip-10-0-0-10,ip-10-0-0-12")
