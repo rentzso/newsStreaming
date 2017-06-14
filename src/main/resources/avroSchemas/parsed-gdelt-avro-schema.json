@@ -1,0 +1,12 @@
+{
+  "fields": [
+    { "name": "id", "type": "string" },
+    { "name": "date", "type": "string" },
+    { "name": "url", "type": "string" },
+    { "name": "topics", "type": {
+      "type": "array", "items": "string"
+    } }
+  ],
+  "name": "gdeltparsedrecord",
+  "type": "record"
+}
