@@ -5,7 +5,8 @@
     { "name": "url", "type": "string" },
     { "name": "topics", "type": {
       "type": "array", "items": "string"
-    } }
+    } },
+    { "name": "num_topics", "type":"int"}
   ],
   "name": "gdeltparsedrecord",
   "type": "record"
