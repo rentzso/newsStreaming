@@ -1,9 +1,10 @@
 # newsStreaming
 part of the Insight Project [nexTop](https://github.com/rentzso/nextop)
 
-The Spark Streaming consumer receives messages posted by [the Kafka S3 Producer](https://github.com/rentzso/producerS3) and sends them into Elasticsearch using the native client library [elasticsearch-hadoop](https://github.com/elastic/elasticsearch-hadoop)
+This library runs a Spark Streaming consumer that receives messages posted by [the Kafka S3 Producer](https://github.com/rentzso/producerS3) and sends them into Elasticsearch using the native client library [elasticsearch-hadoop](https://github.com/elastic/elasticsearch-hadoop)
 
 ## Build and run instructions:
+To build the jar:
 ```
 sbt assembly
 ```
